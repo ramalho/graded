@@ -11,8 +11,8 @@ void setup() {
 
 void draw() {
   background(bg);
-  image(cmdSprite, cmdX, 40);
-  cmdX = cmdX + 10;
+  image(cmdSprite, cmdX, 90);
+  cmdX = cmdX + 3;
   if (cmdX > width) cmdX = 0;
 }
 
